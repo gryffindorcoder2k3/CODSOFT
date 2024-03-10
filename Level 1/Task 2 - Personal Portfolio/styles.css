@@ -1,0 +1,88 @@
+body {
+  font-family: 'Times New Roman', Times, serif;  
+  margin: 0;
+  background-color: beige;
+  padding: 0;
+  text-align: center;
+  }
+  
+  header {
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  #about {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #about img {
+    width: 90px;
+    border-radius: 0%;
+    display: flexbox;
+    border: 2px solid black;
+  }
+  
+  #skills {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    height: 30rem;
+    width: 50rem;
+    border: 2px solid black;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  #resume a:hover{
+    background: blue;
+    color: white;
+  }
+  
+  footer {
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .img{
+    height: 33rem;
+  }
